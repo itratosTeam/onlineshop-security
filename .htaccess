@@ -1,0 +1,22 @@
+# disabling file access to OXID Admin
+<FilesMatch .*>
+order allow,deny
+deny from .cn
+deny from 56.29.
+deny from 123.156.
+deny from 123.27.
+deny from 101.66.
+deny from 187.31.
+deny from 187.155
+deny from 91.152.
+deny from 129.29.
+deny from 38.29.
+deny from 255.30.
+deny from 188.157.
+deny from 208.153.
+deny from 250.158.
+deny from .163data.com.cn
+deny from .client.yota.ru
+# your ip ore all
+allow from all
+</FilesMatch>
